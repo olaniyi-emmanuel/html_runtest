@@ -21,6 +21,9 @@
             <li>
                 <a href="#Skills">My Skills</a>
             </li>
+            <li>
+                <a href="#Contact"> Contact</a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -140,6 +143,55 @@
                 <dd>This is also a Technologies I'm so familiar with</dd>
         </dl>
     </section>
+
+    <hr>
+    <article id="Contact">
+        <h2>Contact Me</h2>
+        <p>I really want to hear from you</p>
+        <form action="https://httpbin.org/get" method="get">
+            <p>
+            <label for="firstName">First Name: </label>
+            <input type="text" name="firstName" id="firstName" id="firstName" placeholder="Jane Doe" autocomplete="on" required autofocus>
+            </p>
+            <p>
+            <label for="lastName">LastName</label>
+            <input type="text" name="lastName" id="lastName" placeholder="Boss Mot" autocomplete="on">
+            </p>
+            <p>
+                <label for="Password">Password</label>
+                <input type="password" name="password" id="password" placeholder="password">    
+
+            </p>
+            <label for="PhoneNumber">Phone Number</label>
+            <input type="tel" name="PhoneNumber" 
+            id="PhoneNumber" required
+             placeholder="+234000000000" 
+             pattern="[0-9]">
+             <p>
+                <label for="decade">Favourite decade</label>
+                <input type="number" name="decade" 
+                id="decade" min="1950" 
+                max="2020" step="10" value="1980" >
+             </p>
+
+             <p>
+                <label for="coffee">Favourite coffee</label>
+                <select name="coffee" id="coffee" multiple size="2">
+                    <optgroup>
+                    <option value="Regular coffee">Regular Coffee</option>
+                    <option value="Iced Coffee">Iced Coffee</option>
+                    </optgroup>
+                    <option value="Cappuccino" selected>Cappuccino</option>
+                    <option value="latte">Latte</option>
+                    <option value="americano">Americano</option>
+                </select>
+             </p>
+    
+
+            
+        </form>
+
+    </article>
 
 </main>
     <hr>
